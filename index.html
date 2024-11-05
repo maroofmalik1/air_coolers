@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Malik Electricals</title>
+  </head>
+  <body>
+    <header class="header__container" id="home">
+      <nav>
+        <div class="nav__header">
+          <div class="nav__logo">
+            <a href="#">
+              <img src="assets/logo.jpg" alt="logo-dark" class="logo-dark" />
+              <img src="assets/logo.jpg" alt="logo-white" class="logo-white" />
+            </a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#product">Product</a></li>
+          <li><a href="#store">Store</a></li>
+        </ul>
+      </nav>
+      <div class="header__image">
+        <img src="assets/img1.jpeg" alt="header" />
+      </div>
+      <div class="header__content">
+        <h1>MALIK ELECTRICALS</h1>
+        <p>
+          Discover the perfect blend of innovation and craftsmanship of Air
+          Coolers at a very low price , Starting just from
+        </p>
+        <h4>₹1999</h4>
+        <div class="header__btns">
+          <button class="btn discover">CONTACT</button>
+          <a href="tel:+919911247881">
+            <button class="btn">91 9911247881</button>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container feature__container" id="product">
+      <h2 class="section__header">FEATURED</h2>
+      <div class="feature__grid">
+        <div class="feature__card">
+          <span>SALE</span>
+          <img src="assets/steel.webp" alt="feature" />
+          <h4>STEEL DESSERT COOLER</h4>
+          <p>Starting from ₹2499</p>
+          <button
+            class="btn"
+            onclick="window.location.href='https://maps.app.goo.gl/JidX54acWsi7BCBB7'"
+          >
+            VISIT US
+          </button>
+        </div>
+        <div class="feature__card">
+          <span>SALE</span>
+          <img src="assets/plastic.jpeg" alt="feature" />
+          <h4>PLASTIC COOLER</h4>
+          <p>Starting from ₹1999</p>
+          <button
+            class="btn"
+            onclick="window.location.href='https://maps.app.goo.gl/JidX54acWsi7BCBB7'"
+          >
+            VISIT US
+          </button>
+        </div>
+        <div class="feature__card">
+          <img src="assets/repairing.webp" alt="feature" />
+          <h4>REPAIRING</h4>
+          <p></p>
+          <button class="btn" onclick="openWhatsApp()">
+            CALL OR SEND A MSG
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <secttion class="story">
+      <div class="section__container story__container">
+        <div class="story__image">
+          <img src="assets/logo.jpg" alt="story" />
+        </div>
+        <div class="story__content">
+          <h2 class="section__header">About Us</h2>
+
+          <h4>SELLING AND REPAIRING</h4>
+          <p>
+            MALIK ELECTRICAL is your one-stop shop for all your electrical needs
+            in New Delhi. We offer a wide variety of cooling solutions,
+            including air coolers, desert coolers, and ceiling fans. We also
+            carry a selection of table fans, exhaust fans, electric motors, and
+            LED bulbs. Additionally, MALIK ELECTRICAL provides repair services
+            for all the products they sell, ensuring your home or office stays
+            comfortable and well-lit.
+          </p>
+          <div class="story__btn"></div>
+        </div>
+      </div>
+    </secttion>
+
+    <section class="section__container arrival__container" id="store">
+      <h2 class="section__header">STORE</h2>
+      <div class="arrival__grid">
+        <div class="arrival__card">
+          <img src="assets/cooler.png" alt="arrival" />
+          <h4>Coolers</h4>
+          <p>₹1999-₹6999</p>
+          <button class="btn read__more" style="font-weight: bold">
+            All Types Of Air Coolers Available IN Every Size
+          </button>
+          <button class="btn add__cart">VISIT STORE</button>
+        </div>
+        <div class="arrival__card">
+          <img src="assets/fan.jpeg" alt="arrival" />
+          <h4>Cieling Fans And Table Fans</h4>
+          <p>₹299-₹1999</p>
+          <button class="btn add__cart">VISIT STORE</button>
+        </div>
+        <div class="arrival__card">
+          <span>NEW</span>
+          <img src="assets/honeycombpad.webp" alt="arrival" />
+          <h4>Honey Comb Pad</h4>
+          <p>₹99</p>
+          <button class="btn read__more">
+            HoneyComb Pad has a longer life than other pads
+          </button>
+
+          <button class="btn add__cart">VISIT STORE</button>
+        </div>
+        <div class="arrival__card">
+          <img src="assets/exhaust.jpg" alt="arrival" />
+          <h4>Exhaust Motors</h4>
+          <p>₹500-₹1200</p>
+          <button class="btn read__more">
+            Both Copper And Aluminium Exhaust Motor Available
+          </button>
+
+          <button class="btn add__cart">VISIT STORE</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="client">
+      <div class="section__container client__container">
+        <div class="client__image">
+          <img src="assets/client.jpg" alt="client" />
+        </div>
+        <div class="client__content">
+          <!-- Slider main container -->
+          <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <div class="client__card">
+                  <span><i class="ri-double-quotes-l"></i></span>
+                  <p>
+                    Good Services and good quality products. I am very happy
+                    with the service and the product quality. I will definitely
+                    recommend
+                  </p>
+                  <div class="client__card__details">
+                    <img src="assets/client-1.jpg" alt="client" />
+                    <div>
+                      <h4>Maroof</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="subscribe">
+      <div class="section__container subscribe__container">
+        <div>
+          <h2>Find us on google Maps</h2>
+          <div class="container">
+            <!-- Image acting as a button to redirect to the map page -->
+            <a href="https://maps.app.goo.gl/JidX54acWsi7BCBB7">
+              <img
+                src="assets/maps.png"
+                alt="Map Thumbnail"
+                class="map-image"
+              />
+            </a>
+            <div class="address">
+              <strong>Our Office Address:</strong><br />
+              B-11 Noor Nagar,<br />
+              Near Ajmal , Gaffar Mazil Road , Okhla , New Delhi -110025<br />
+              Phone:+91 9911247881
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <h4>Our Information</h4>
+          <ul class="footer__links">
+            <li>
+              <a
+                href="#"
+                onclick="alert('Product once sold cannot be returned. It can only be replaced within 2 days.'); return false;"
+                >Return Policy</a
+              >
+            </li>
+
+            <li>
+              <a href="https://maps.app.goo.gl/JidX54acWsi7BCBB7"
+                >Store House</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>About Us</h4>
+          <ul class="footer__links">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Copy Right</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Product</h4>
+          <ul class="footer__links">
+            <li><a href="#">Dessert Coolers</a></li>
+            <li><a href="#">Plastic Body Coolers</a></li>
+            <li><a href="#">Exhaust Motors</a></li>
+            <li><a href="#">Cieling Fans and Blowers</a></li>
+
+            <li><a href="#">Other Electrical Appliances</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Support</h4>
+          <ul class="footer__links">
+            <li>
+              <a
+                href="#"
+                onclick="alert('Warranty is valid only for one season , and it can be claimed only when the motor of the cooler or pump is not working. '); return false;"
+                >Service & Warranty</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                onclick="alert('For Repairing and other services visit our company  here =>( https://maps.app.goo.gl/JidX54acWsi7BCBB7).'); return false;"
+                >Repairing and Service</a
+              >
+            </li>
+            <li>
+              <a href="#" onclick="alert('Contact 9911247881'); return false;"
+                >Customer Care</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bar">Copyright © 2024. All rights reserved.</div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
